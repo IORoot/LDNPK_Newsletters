@@ -1,0 +1,32 @@
+{
+  "title": "ClassPass, The NED & Jumping.",
+
+  "b1_title": "Collaborating with ClassPass & Groupon",
+  "b1_sub": "Discounts ahoy!",
+  "b1_content": "LondonParkour will very soon be listed on both ClassPass and Groupon for exclusive deals on class prices. If you are a regular to any of the Indoor or Outdoor Adult beginner classes then you will soon be able to be make more savings on your bookings! Keep your eyes peeled on @london_parkour instagram channel for more news.",
+  "b1_image": "https://londonparkour.com/newsletter/2018_10/block01.jpg",
+  "b1_image_alt": "ClassPass",
+  "b1_cta": "Our Timetable of Classes",
+  "b1_cta_link": "https://londonparkour.com/Classes",
+
+  "b2_title": "The NED",
+  "b2_sub": "Members Only.",
+  "b2_content": "This month we are heading to the very exclusive 5-star hotel, the NED. Based in the old Midland Bank Building at Bank, we will be delivering multiple workshops to their members so they can experience Parkour and real Practical Movement Training. Stay tuned for more info!",
+  "b2_image": "https://londonparkour.com/newsletter/2018_10/block02.jpg",
+  "b2_image_alt": "The NED",
+  "b2_cta": "The NED",
+  "b2_cta_link": "https://thened.com",
+
+  "b3_title": "CHEATSHEET IV - Basic Jumping",
+  "b3_sub": "Free Download",
+  "b3_content": "Marking the beginning of October, we have a New Cheatsheet for you to download.<br/><br/>This one gives some helpful tips for correct mechanics of Jumping. Click on the link below to download the free cheatsheet from our google drive.",
+  "b3_image": "https://londonparkour.com/newsletter/2018_10/block03.jpg",
+  "b3_image_alt": "Free Cheatsheet",
+  "b3_cta": "DOWNLOAD",
+  "b3_cta_link": "https://drive.google.com/open?id=15XGz6IEE99kby62yYUnZCGw-jHvw-6Kr",
+
+  "first_name_merge_tag": "*|FNAME|*",
+  "unsub_merge_tag": "*|UNSUB|*",
+  "view_browser_merge_tag": "*|ARCHIVE|*",
+  "address_merge_tag": "*|HTML:LIST_ADDRESS_HTML|*"
+}

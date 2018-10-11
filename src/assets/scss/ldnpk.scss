@@ -1,0 +1,145 @@
+
+$header-bg-colour:  #242424;
+$title-bg-colour:   #ffffff;
+
+$block1-bg:         #f0f0f0;
+$block1-color:      #242424;
+$block1-cta-bg:     #ff3cac;
+$block1-cta-color:  #ffffff;
+
+$block2-bg:         #2b86c5;
+$block2-color:      #ffffff;
+$block2-cta-bg:     #784ba0;
+$block2-cta-color:  #ffffff;
+
+$block3-bg:         #242424;
+$block3-color:      #ffffff;
+$block3-cta-bg:     #2b86c5;
+$block3-cta-color:  #ffffff;
+
+// 1. Header
+// ---------
+
+.ldnpk_header_wrapper {
+    background-color: #242424 !important;
+}
+
+.ldnpk_title_image {
+    padding-left: 10px;
+}
+
+// 2. Title
+// ---------
+
+.ldnpk_title_wrapper {
+    background-color: $title-bg-colour;
+}
+
+        .ldnpk_title_wrapper h1 {
+            font-size: 100px;
+            font-family: Helvetica, ‘Helvetica Neue’, Arial;
+            line-height: 90%;
+            font-weight: 900;
+            letter-spacing: -5px;
+        }
+
+// 3. All Blocks
+// -------------
+
+.ldnpk_block .wrapper-inner {
+    padding: 75px 50px;
+    hyphens: none;
+}
+
+        // Title
+        .ldnpk_block h2 {
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 25px;
+        }
+
+        // Subtitle / Date
+        .ldnpk_block h3 {
+            font-size: 16px;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        // Text
+        .ldnpk_block p {
+            font-size: 24px;
+            font-weight: 100;
+            line-height: 36px;
+        }
+
+        // Image
+        .ldnpk_block img {
+            background-color: #ffffff;
+        }
+
+
+
+// 4. Block 1
+// ----------
+
+    // Background
+    .ldnpk_block1 {
+        background-color: $block1-bg;
+        color: $block1-color;
+    }
+
+    // TEXT
+    .ldnpk_block1 h2,
+    .ldnpk_block1 h3,
+    .ldnpk_block1 p {
+        color: $block1-color;
+    }
+
+    // CTA Button
+    .ldnpk_block1 .ldnpk_button a {
+        background-color: $block1-cta-bg;
+        color: $block1-cta-color  !important;
+    }
+
+// 5. Block 2
+// ----------
+
+    // Background
+    .ldnpk_block2 {
+        background-color: $block2-bg;
+    }
+
+    // TEXT
+    .ldnpk_block2 h2,
+    .ldnpk_block2 h3,
+    .ldnpk_block2 p {
+        color: $block2-color;
+    }
+
+    // CTA Button
+    .ldnpk_block2 .ldnpk_button a {
+        background-color: $block2-cta-bg;
+        color: $block2-cta-color !important;
+    }
+
+
+// 6. Block 3
+// ----------
+
+    // Background
+    .ldnpk_block3 {
+        background-color: $block3-bg;
+    }
+
+    // TEXT
+    .ldnpk_block3 h2,
+    .ldnpk_block3 h3,
+    .ldnpk_block3 p {
+        color: $block3-color;
+    }
+
+    // CTA Button
+    .ldnpk_block3 .ldnpk_button a {
+        background-color: $block3-cta-bg;
+        color: $block3-cta-color !important;
+    }

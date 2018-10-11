@@ -1,0 +1,31 @@
+
+npm start = start server
+npm run build = build final version.
+
+
+ADD/CHANGE TO THE BOTTOM OF var.json FILE.
+
+  MAILCHIMP
+  ---------
+  "first_name_merge_tag": "*|FNAME|*",
+  "unsub_merge_tag": "*|UNSUB|*",
+  "view_browser_merge_tag": "*|ARCHIVE|*",
+  "address_merge_tag": "*|HTML:LIST_ADDRESS_HTML|*"
+
+
+
+  ZOHO
+  ----
+    "first_name_merge_tag": "$[FNAME]$",
+    "unsub_merge_tag": "$[LI:UNSUBSCRIBE]$",
+    "view_browser_merge_tag": "$[LI:VIEWINBROWSER]$",
+    "address_merge_tag": "$[HF:ORGADDRESS]$"
+
+
+
+  BENCHMARK - No address or browser tags
+  ---------
+    "first_name_merge_tag": "[contact_attribute:firstname]",
+    "unsub_merge_tag": "[unsubscribeurl]",
+    "view_browser_merge_tag": "https://mailchi.mp/4f1a166aa3d5/new-parkour-classes-in-london?e=b34172f09e",
+    "address_merge_tag": "[company_name]"
